@@ -62,8 +62,9 @@
         <div class="section-heading"><h2 id="publications-heading">Publications &amp; preprints</h2><span class="section-note">* Equal contribution</span></div>
         <div class="year-heading">2026</div>
         <article class="paper" id="paper-sae">
-          <a class="paper-figure" href="https://arxiv.org/abs/2610.26489" aria-label="Read Strength Controls Change How Interventions Compare Across Sparse Autoencoder Codes">
-            <img src="sae-study.svg" alt="Illustration comparing norm matching and output calibration for sparse autoencoder interventions" width="260" height="180">
+          <a class="paper-figure" href="sae-overview.png" target="_blank" rel="noopener" aria-label="Enlarge Figure 1: Strength control can change a transfer decision" data-figure-title="Strength control can change a transfer decision" data-figure-caption="Figure 1. A Llama-128K example selected post hoc, followed by transfers lost or gained relative to the reference intervention across all 304 inputs. Agreement with the reference is not a faithfulness standard.">
+            <img src="sae-overview.png" alt="Original Figure 1: a donor and recipient prompt, three interventions with different transfer outcomes, and aggregate results across 304 inputs" width="915" height="1400" loading="lazy">
+            <span class="figure-hint">Figure 1 <span aria-hidden="true">·</span> Click to enlarge <span aria-hidden="true">↗</span></span>
           </a>
           <div class="paper-body">
             <h3><a href="https://arxiv.org/abs/2610.26489">Strength Controls Change How Interventions Compare Across Sparse Autoencoder Codes</a></h3>
@@ -86,8 +87,9 @@
           </div>
         </article>
         <article class="paper" id="paper-answerability">
-          <a class="paper-figure" href="https://arxiv.org/abs/2610.26461" aria-label="Read Training Negatives Still Matter After Calibrating Answerability Readouts">
-            <img src="answerability-study.svg" alt="Illustration of a question and passage being evaluated for answerability" width="260" height="180">
+          <a class="paper-figure" href="answerability-overview.png" target="_blank" rel="noopener" aria-label="Enlarge Figure 1: Native versus empty training negatives" data-figure-title="Native versus empty training negatives" data-figure-caption="Figure 1. A SQuAD fitting example with the passage summarized. Native and empty training share the same unanswerable question and label. The bottom panel concerns calibration on new inputs, not predictions for this example.">
+            <img src="answerability-overview.png" alt="Original Figure 1: the same question paired with a native negative passage or no passage, followed by evaluation on new question-passage inputs" width="888" height="988" loading="lazy">
+            <span class="figure-hint">Figure 1 <span aria-hidden="true">·</span> Click to enlarge <span aria-hidden="true">↗</span></span>
           </a>
           <div class="paper-body">
             <h3><a href="https://arxiv.org/abs/2610.26461">Training Negatives Still Matter After Calibrating Answerability Readouts</a></h3>
@@ -134,5 +136,10 @@
     </main>
     <footer><span>© 2026 Jinchen Zhang</span><span>Last updated October 2026</span><a href="#about">Back to top ↑</a></footer>
   </div>
+  <dialog class="figure-viewer" aria-labelledby="figure-title" aria-describedby="figure-caption">
+    <div class="figure-viewer-header"><h2 id="figure-title">Paper figure</h2><button type="button" class="figure-close" aria-label="Close figure preview" autofocus>Close <span aria-hidden="true">×</span></button></div>
+    <img class="figure-full" alt="">
+    <p id="figure-caption"></p>
+  </dialog>
 </body>
 </html>
